@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E215A9073AC94A2A3BEBA8C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5D87F3A2140A1447D6FA5929 /* Localizable.xcstrings */; };
+		519B23F7DE86D984A8F9B7DF /* PlaylistReverserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274F9C438A1DA8F963D22E86 /* PlaylistReverserApp.swift */; };
+		5D06CBE6C359931B1CC79EFB /* SelfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0AF3B5F9C0327FA1AB140 /* SelfTest.swift */; };
+		76849F9832EFDB8A7EADA5B1 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 82CBFC8D0EC592EAD1D40F1E /* InfoPlist.xcstrings */; };
+		8F0DD2ADDB79845EB951B5CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9081A051667AE283027768E8 /* Assets.xcassets */; };
+		926B17F43ADB4AAC4D04E184 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F414719D65C382911FC8B5D /* ContentView.swift */; };
+		937E85C9CBC2C32205213AD5 /* AppleScriptRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A70DD9C50A662B31F59444 /* AppleScriptRunner.swift */; };
+		D8EFFA62171A33E9A68B4B3C /* MusicBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D6FDCFC527F193276E245 /* MusicBridge.swift */; };
+		E33E6CBA5AADBC429F3148B7 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0912EF2B9B7B3EFD63EDE032 /* PreviewView.swift */; };
+		E766E2FBC5BAA090D62F388F /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92873E68A36C2B8CF73CF70 /* AppModel.swift */; };
+		F377B8182BD6252C58CC9CAC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050908FBCDAB89CA7268805 /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0912EF2B9B7B3EFD63EDE032 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		0E5D6FDCFC527F193276E245 /* MusicBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBridge.swift; sourceTree = "<group>"; };
+		274F9C438A1DA8F963D22E86 /* PlaylistReverserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistReverserApp.swift; sourceTree = "<group>"; };
+		51A70DD9C50A662B31F59444 /* AppleScriptRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleScriptRunner.swift; sourceTree = "<group>"; };
+		54679E13C9161FED5C40AFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5D87F3A2140A1447D6FA5929 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		7F414719D65C382911FC8B5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8050908FBCDAB89CA7268805 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		82CBFC8D0EC592EAD1D40F1E /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		9081A051667AE283027768E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1E0AF3B5F9C0327FA1AB140 /* SelfTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfTest.swift; sourceTree = "<group>"; };
+		B49EA92388F28D6E100754BE /* PlaylistReverser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlaylistReverser.entitlements; sourceTree = "<group>"; };
+		D61A8EB64A24D8A2E3E99947 /* PlaylistReverser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistReverser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92873E68A36C2B8CF73CF70 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		73C382C37590821CBCECC18D = {
+			isa = PBXGroup;
+			children = (
+				BAD9B810C170F7E78301FEC2 /* PlaylistReverser */,
+				C729317F1EB108F421A477F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAD9B810C170F7E78301FEC2 /* PlaylistReverser */ = {
+			isa = PBXGroup;
+			children = (
+				51A70DD9C50A662B31F59444 /* AppleScriptRunner.swift */,
+				F92873E68A36C2B8CF73CF70 /* AppModel.swift */,
+				9081A051667AE283027768E8 /* Assets.xcassets */,
+				7F414719D65C382911FC8B5D /* ContentView.swift */,
+				54679E13C9161FED5C40AFCD /* Info.plist */,
+				82CBFC8D0EC592EAD1D40F1E /* InfoPlist.xcstrings */,
+				5D87F3A2140A1447D6FA5929 /* Localizable.xcstrings */,
+				8050908FBCDAB89CA7268805 /* Models.swift */,
+				0E5D6FDCFC527F193276E245 /* MusicBridge.swift */,
+				B49EA92388F28D6E100754BE /* PlaylistReverser.entitlements */,
+				274F9C438A1DA8F963D22E86 /* PlaylistReverserApp.swift */,
+				0912EF2B9B7B3EFD63EDE032 /* PreviewView.swift */,
+				A1E0AF3B5F9C0327FA1AB140 /* SelfTest.swift */,
+			);
+			path = PlaylistReverser;
+			sourceTree = "<group>";
+		};
+		C729317F1EB108F421A477F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D61A8EB64A24D8A2E3E99947 /* PlaylistReverser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBA4729BB4F4027569AE7844 /* PlaylistReverser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 470E64FC42BDAF44857129AE /* Build configuration list for PBXNativeTarget "PlaylistReverser" */;
+			buildPhases = (
+				D82DB160F6DDA6ACE4BFA3E7 /* Sources */,
+				E2C12BA370AF4D1600BF49BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaylistReverser;
+			packageProductDependencies = (
+			);
+			productName = PlaylistReverser;
+			productReference = D61A8EB64A24D8A2E3E99947 /* PlaylistReverser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB984DE825EE48FB3E96FB31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = DF83471F14A1BBC1D707F972 /* Build configuration list for PBXProject "PlaylistReverser" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				de,
+				en,
+			);
+			mainGroup = 73C382C37590821CBCECC18D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C729317F1EB108F421A477F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBA4729BB4F4027569AE7844 /* PlaylistReverser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2C12BA370AF4D1600BF49BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0DD2ADDB79845EB951B5CE /* Assets.xcassets in Resources */,
+				76849F9832EFDB8A7EADA5B1 /* InfoPlist.xcstrings in Resources */,
+				2E215A9073AC94A2A3BEBA8C /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D82DB160F6DDA6ACE4BFA3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E766E2FBC5BAA090D62F388F /* AppModel.swift in Sources */,
+				937E85C9CBC2C32205213AD5 /* AppleScriptRunner.swift in Sources */,
+				926B17F43ADB4AAC4D04E184 /* ContentView.swift in Sources */,
+				F377B8182BD6252C58CC9CAC /* Models.swift in Sources */,
+				D8EFFA62171A33E9A68B4B3C /* MusicBridge.swift in Sources */,
+				519B23F7DE86D984A8F9B7DF /* PlaylistReverserApp.swift in Sources */,
+				E33E6CBA5AADBC429F3148B7 /* PreviewView.swift in Sources */,
+				5D06CBE6C359931B1CC79EFB /* SelfTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2005606C45697F60C3402430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PlaylistReverser/PlaylistReverser.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = PlaylistReverser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playlistreverser.app;
+				PRODUCT_NAME = "Playlist Reverser";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4B5A4A5661D35FCE403428C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PlaylistReverser/PlaylistReverser.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = PlaylistReverser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playlistreverser.app;
+				PRODUCT_NAME = "Playlist Reverser";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F2A7F08189D67CD83DDAF81B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F4EBDE29C6B9A4806F2AE44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		470E64FC42BDAF44857129AE /* Build configuration list for PBXNativeTarget "PlaylistReverser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5A4A5661D35FCE403428C1 /* Debug */,
+				2005606C45697F60C3402430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DF83471F14A1BBC1D707F972 /* Build configuration list for PBXProject "PlaylistReverser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A7F08189D67CD83DDAF81B /* Debug */,
+				F4EBDE29C6B9A4806F2AE44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB984DE825EE48FB3E96FB31 /* Project object */;
+}

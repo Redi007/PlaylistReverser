@@ -1,0 +1,37 @@
+name: PlaylistReverser
+options:
+  bundleIdPrefix: com.playlistreverser
+  developmentLanguage: en
+  deploymentTarget:
+    macOS: "14.0"
+targets:
+  PlaylistReverser:
+    type: application
+    platform: macOS
+    sources: [PlaylistReverser]
+    settings:
+      base:
+        PRODUCT_NAME: Playlist Reverser
+        PRODUCT_BUNDLE_IDENTIFIER: com.playlistreverser.app
+        SWIFT_VERSION: "5.0"
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        CODE_SIGN_IDENTITY: "-"
+        ENABLE_HARDENED_RUNTIME: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        SWIFT_EMIT_LOC_STRINGS: YES
+        LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    info:
+      path: PlaylistReverser/Info.plist
+      properties:
+        CFBundleDisplayName: Playlist Reverser
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        LSMinimumSystemVersion: "14.0"
+        LSApplicationCategoryType: public.app-category.music
+        NSAppleEventsUsageDescription: "Playlist Reverser reads your playlists from Music and, only after you confirm, saves a reversed copy (or reorders the original if you explicitly choose that option)."
+    entitlements:
+      path: PlaylistReverser/PlaylistReverser.entitlements
+      properties:
+        com.apple.security.automation.apple-events: true

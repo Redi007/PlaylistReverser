@@ -1,0 +1,40 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "CFBundleDisplayName": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Playlist Reverser"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Playlist Reverser"
+          }
+        }
+      }
+    },
+    "NSAppleEventsUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Playlist Reverser liest deine Playlists aus der Musik-App und speichert erst nach deiner Bestätigung eine umgekehrte Kopie (oder ordnet das Original neu, wenn du diese Option ausdrücklich wählst)."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Playlist Reverser reads your playlists from Music and, only after you confirm, saves a reversed copy (or reorders the original if you explicitly choose that option)."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
